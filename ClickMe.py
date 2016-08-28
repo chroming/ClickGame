@@ -1,7 +1,13 @@
+# -*- coding:utf-8 -*-
+
 import sys
 from PyQt4.QtGui import *
 import random
 
+'''
+使用PyQt4写的简单小游戏。
+运行程序，点击出现的窗口！
+'''
 
 def click_window():
     app = QApplication(sys.argv)
